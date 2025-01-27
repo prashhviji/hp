@@ -284,7 +284,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
-  border-radius: 25px;
+  margin-left: 7rem;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
 }
 @keyframes updown {
     0% {
@@ -471,6 +474,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
+  height: auto;
 }
 .contact img {
   width: 92%;
