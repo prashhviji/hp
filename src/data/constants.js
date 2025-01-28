@@ -214,3 +214,75 @@ export const skills = [
       ],
     },
 ]
+
+export const experiences = [
+    {
+      id: 0,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+      role: "Frontend Engineer Intern",
+      company: "Neurobit",
+      date: "June 2023 - Nov 2023",
+      desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+      skills: [
+        "ReactJS",
+        "Redux",
+        "NodeJs",
+        "Material UI",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+      doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+    },
+    {
+      id: 1,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+      role: "DevOps & Fullstack Engineering Intern",
+      company: "Flipr Inovations Pvt. Ltd.",
+      date: "Aug 2023 - Oct 2023",
+      desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+      skills: [
+        "Docker",
+        "Terraform",
+        "AWS",
+        "EC2",
+        "Portainer",
+        "Nginx",
+        "JavaScript",
+        "TypeScript",
+        "Node Js",
+        " Next Js",
+      ],
+      doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+    },
+];
+
+export const education = [
+    {
+      id: 0,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+      date: "Oct 2021 - Sep 2025",
+      grade: "8.41 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    },
+    {
+      id: 1,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      school: "Methodist School, Dankuni",
+      date: "Apr 2019 - Apr 2025",
+      grade: "88.2%",
+      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+      degree: "ISC(XII), Science with Computer",
+    },
+    {
+      id: 2,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      school: "Methodist School, Dankuni",
+      date: "Apr 2017 - Apr 2019",
+      grade: "92.3%",
+      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+      degree: "ICSC(X), Science with Computer",
+    },
+  ];
