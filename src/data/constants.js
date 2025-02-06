@@ -1,11 +1,46 @@
 export const skills = [
   {
-    title: "Machine Learning",
+    title: "Coding Languages",
     skills: [
       {
         name: "Python",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://icon.icepanel.io/Technology/svg/Python.svg",
+      },
+      {
+        name: "C",
+        image:
+          "https://icon.icepanel.io/Technology/svg/C.svg",
+      },
+      {
+        name: "C++",
+        image:
+          "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg",
+      },
+      {
+        name: "Java",
+        image:
+          "https://icon.icepanel.io/Technology/svg/Java.svg",
+      },
+      {
+        name: "Javascript",
+        image:
+          "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+      }
+    ],
+  },
+  {
+    title: "Machine Learning",
+    skills: [
+      {
+        name: "Numpy",
+        image:
+          "https://icon.icepanel.io/Technology/svg/NumPy.svg",
+      },
+      {
+        name: "Pandas",
+        image:
+          "https://img.icons8.com/?size=48&id=xSkewUSqtErH&format=png",
       },
       {
         name: "Tensorflow",
@@ -15,12 +50,12 @@ export const skills = [
       {
         name: "Keras",
         image:
-          "data:image/png;base64,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",
+          "https://icon.icepanel.io/Technology/svg/Keras.svg",
       },
       {
-        name: "NLTK",
+        name: "Seaborn",
         image:
-          "https://static.vecteezy.com/system/resources/previews/010/182/465/non_2x/nlp-letter-technology-logo-design-on-white-background-nlp-creative-initials-letter-it-logo-concept-nlp-letter-design-vector.jpg",
+          "https://user-images.githubusercontent.com/315810/92159303-30d41100-edfb-11ea-8107-1c5352202571.png",
       },
       {
         name: "OpenCV",
@@ -62,7 +97,7 @@ export const skills = [
       title: "Generative AI",
       skills: [
         {
-          name: "Hugging Face",
+          name: "HuggingFace",
           image: "https://img.icons8.com/?size=100&id=sop9ROXku5bb&format=png&color=000000",
         },
         {
@@ -75,11 +110,6 @@ export const skills = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKuBoNacT-QddJ4zgGtZEJZ0K4PXN83Afk9w&s",
         },
         {
-          name: "LlamaIndex",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
-        },
-        {
           name: "FastAPI",
           image:
             "https://icon.icepanel.io/Technology/svg/FastAPI.svg",
@@ -87,21 +117,8 @@ export const skills = [
         {
           name: "Streamlit",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        {
-          name: "Postgresql",
-          image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-        },
-        {
-          name: "MongoDB",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-        },
-        {
-          name: "Firebase",
-          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        },
+            "https://icon.icepanel.io/Technology/svg/Streamlit.svg",
+        }
       ],
     },
     {
@@ -120,21 +137,7 @@ export const skills = [
         {
           name: "Docker",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
-        {
-          name: "Jenkins",
-          image:
-            "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-        },
-        {
-          name: "Nginx",
-          image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-        },
-        {
-          name: "Grafana",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+            "https://icon.icepanel.io/Technology/svg/Docker.svg",
         },
         {
           name: "Kubernetes",
@@ -142,39 +145,39 @@ export const skills = [
             "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
         },
         {
-          name: "Prometheus",
+          name: "Git",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+            "https://icon.icepanel.io/Technology/svg/Git.svg",
         },
       ],
     },
     {
-      title: "Android",
+      title: "DevTools",
       skills: [
         {
-          name: "Java",
+          name: "VS Code",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+            "https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg",
         },
         {
-          name: "Kotlin",
+          name: "PyCharm",
           image:
-            "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+            "https://icon.icepanel.io/Technology/svg/PyCharm.svg",
         },
         {
-          name: "Jetpack Compose",
+          name: "Jupyter",
           image:
-            "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+            "https://icon.icepanel.io/Technology/png-shadow-512/Jupyter.png",
         },
         {
-          name: "XML",
+          name: "IntelliJ Idea",
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+            "https://icon.icepanel.io/Technology/svg/IntelliJ-IDEA.svg",
         },
         {
-          name: "Android Studio",
+          name: "GitHub",
           image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+            "https://img.icons8.com/?size=512&id=52539&format=png",
         },
       ],
     },
@@ -183,10 +186,10 @@ export const skills = [
 export const experiences = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
-      date: "June 2023 - Nov 2023",
+      img: "https://media.licdn.com/dms/image/v2/D560BAQFWqj3KKQRIeQ/company-logo_200_200/company-logo_200_200/0/1730280973296?e=1746662400&v=beta&t=gWfcawpnnZnxxcVNktzv1kMyAP-41IT43q920uGmaFs",
+      role: "AI/ML Lead",
+      company: "Open Source Programming Club",
+      date: "Oct 2024 - Present",
       desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
       skills: [
         "ReactJS",
@@ -201,10 +204,10 @@ export const experiences = [
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "DevOps & Fullstack Engineering Intern",
-      company: "Flipr Inovations Pvt. Ltd.",
-      date: "Aug 2023 - Oct 2023",
+      img: "https://media.licdn.com/dms/image/v2/D4E0BAQFI_gqUcEKaOg/company-logo_200_200/company-logo_200_200/0/1707752854204?e=1746662400&v=beta&t=lmCrbMLGS8usoxsIA-KNxIi1MD3h-qcMo2gg1DhwZnc",
+      role: "Technical Team Member",
+      company: "Artficial Intelligence Club",
+      date: "Jan 2024 - Present",
       desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
       skills: [
         "Docker",
@@ -225,29 +228,21 @@ export const experiences = [
 export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.41 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      img: "https://www.mycampusreview.com/images/college/1693215842velloreinstitute.jpg",
+      school: "Vellore Institute of Technology, Chennai",
+      date: "Aug 2023 - July 2027",
+      grade: " 9.64 CGPA",
+      desc: "Currently pursuing a B.Tech in Computer Science and Engineering (AI & ML) at VIT University, Chennai. Engaged in hands-on learning and research in Artificial Intelligence, Machine Learning, and Computer Vision, with a strong focus on real-world applications and innovative problem-solving. Actively participating in hackathons, projects, and industry-related internships to gain practical experience and contribute to impactful solutions.",
+      degree: "BTech, Computer Science and Engineering (Specializing in AI & ML)",
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
+      img: "https://pssenior.edu.in/online/images/logo.png",
+      school: "PS Senior Secondary School, Mylapore",
+      date: "Apr 2008 - May 2023",
+      grade: " 94.4%",
+      desc: "Completed 12th grade at PS Senior Secondary School with a focus on Computer Science, building a solid foundation in programming, problem-solving, and computational concepts. Developed a keen interest in technology and innovation, paving the way for further studies in Artificial Intelligence and Machine Learning.",
+      degree: "CBSE(XII), Computer Science",
     },
-    {
-      id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
-    },
+    
   ];
