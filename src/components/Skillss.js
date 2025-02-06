@@ -122,16 +122,7 @@ const Skillss = () => {
   return (
     <Container id="Skills">
       <Wrapper>
-        <Title>Skills</Title>
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
-          Here are some of my skills on which I have been working on for the
-          past 3 years.
-        </Desc>
-
+        
         <SkillsContainer>
           {skills.map((skill, index) => (
             <Tilt>
