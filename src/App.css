@@ -20,6 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -34,6 +35,8 @@ body {
   background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
+  background-image: url("./assets/img/banner-bg.png");  
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -352,7 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: transparent;
 }
 .project h2 {
 	font-size: 45px;
@@ -476,7 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #8c3167 -5.91%, #040404e5 111.58%);
   padding: 60px 0 40px 0;
 }
 .contact img {
