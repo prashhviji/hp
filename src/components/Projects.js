@@ -8,38 +8,29 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-
   const projects = [
     {
       title: "Smart Farming Solutions",
       description: "Application Development",
       imgUrl: projImg1,
+      githubLink: "https://github.com/mithilgirish/Crop-Core_Tech",
+      deployLink: "https://smartfarming-demo.com"
     },
     {
       title: "Navigate Your Future",
       description: "Career Empowerment",
       imgUrl: projImg2,
+      githubLink: "https://github.com/Hariprasaadh/CareerTrack",
+      deployLink: "https://navigate-future.com"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      githubLink: "https://github.com/yourusername/business-startup",
+      deployLink: "https://business-startup.com"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+   
   ];
 
   return (
