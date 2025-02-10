@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import aria from "../assets/img/aria.png";
 import cropcore from "../assets/img/Banner.jpg"
+import career from "../assets/img/careertrack.png"
+
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -20,16 +21,16 @@ export const Projects = () => {
     {
       title: "Navigate Your Future",
       description: "Career Empowerment",
-      imgUrl: projImg2,
+      imgUrl: career,
       githubLink: "https://github.com/Hariprasaadh/CareerTrack",
       deployLink: "https://navigate-future.com"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      githubLink: "https://github.com/yourusername/business-startup",
-      deployLink: "https://business-startup.com"
+      title: "AI Mental Health Companion",
+      description: "Adaptive Response Model",
+      imgUrl: aria,
+      githubLink: "https://github.com/hariprasaadh/careertrack/blob/main/AI/TherapistBot/chatbot.py",
+      deployLink: "https://ariahealthbot.streamlit.app/"
     },
    
   ];
