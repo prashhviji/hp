@@ -479,11 +479,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #8c3167 -5.91%, #040404e5 111.58%);
+  /* background: linear-gradient(90.21deg, #cf7aad -5.91%, #0c1220e5 111.58%);  */
   padding: 60px 0 40px 0;
 }
 .contact img {
-  width: 92%;
+  width: 80%;
 }
 .contact h2 {
 	font-size: 45px;

@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
+import cropcore from "../assets/img/Banner.jpg"
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -11,10 +12,10 @@ export const Projects = () => {
   const projects = [
     {
       title: "Smart Farming Solutions",
-      description: "Application Development",
-      imgUrl: projImg1,
+      description: "Agri Intelligence",
+      imgUrl: cropcore,
       githubLink: "https://github.com/mithilgirish/Crop-Core_Tech",
-      deployLink: "https://smartfarming-demo.com"
+      deployLink: "https://devfolio.co/projects/crop-core-tech-5028"
     },
     {
       title: "Navigate Your Future",
