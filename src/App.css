@@ -666,3 +666,166 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+/* Mobile Navigation */
+@media screen and (max-width: 768px) {
+  nav.navbar {
+    padding: 12px 0;
+  }
+  
+  nav.navbar a.navbar-brand {
+    width: 25%;
+  }
+  
+  .social-icon {
+    margin-left: 7px;
+  }
+  
+  .navbar-text button {
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+
+/* Mobile Banner */
+@media screen and (max-width: 768px) {
+  .banner {
+    padding: 150px 0 50px 0;
+  }
+  
+  .banner h1 {
+    font-size: 40px;
+  }
+  
+  .banner p {
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .banner img {
+    margin-left: 0;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 2rem;
+  }
+  
+  .banner button {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+}
+
+/* Mobile Skills Section */
+@media screen and (max-width: 768px) {
+  .skill-bx {
+    padding: 40px 20px;
+    border-radius: 32px;
+  }
+  
+  .skill h2 {
+    font-size: 35px;
+  }
+  
+  .skill p {
+    font-size: 16px;
+    margin: 14px 0 45px 0;
+  }
+  
+  .skill-slider {
+    width: 100%;
+  }
+}
+
+/* Mobile Projects Section */
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 40px 0;
+  }
+  
+  .project h2 {
+    font-size: 35px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  
+  .project .nav.nav-pills .nav-link {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+  
+  .proj-txtx h4 {
+    font-size: 24px;
+  }
+}
+
+/* Mobile Contact Section */
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 40px 0;
+  }
+  
+  .contact h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form input, .contact form textarea {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+  
+  .contact form button {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile Footer */
+@media screen and (max-width: 768px) {
+  .newsletter-bx {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 32px;
+  }
+  
+  .new-email-bx button {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  
+  .footer img {
+    width: 50%;
+  }
+}
+
+/* Additional Mobile Optimizations */
+@media screen and (max-width: 480px) {
+  .banner h1 {
+    font-size: 32px;
+  }
+  
+  .skill-bx {
+    padding: 30px 15px;
+  }
+  
+  .proj-imgbx {
+    margin-bottom: 16px;
+  }
+  
+  .social-icon a {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .social-icon a::before {
+    width: 35px;
+    height: 35px;
+  }
+}
