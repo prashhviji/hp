@@ -424,7 +424,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+.proj-img{
+  height: 25rem;
+  width: 25rem;
+  object-fit: fill;
+}
 .proj-imgbx {
+  height: 25rem;
+  width: 25rem;
+  margin: 10px;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
@@ -666,166 +674,207 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
-/* Mobile Navigation */
-@media screen and (max-width: 768px) {
+
+/* General Mobile Responsiveness */
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  h1 {
+    font-size: 40px !important;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 32px !important;
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+}
+
+/* Navbar Mobile Styling */
+@media screen and (max-width: 991px) {
   nav.navbar {
     padding: 12px 0;
   }
   
   nav.navbar a.navbar-brand {
-    width: 25%;
+    width: 40%;
+  }
+  
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  
+  span.navbar-text {
+    padding: 15px 0;
+    flex-direction: column;
+    align-items: flex-start;
   }
   
   .social-icon {
-    margin-left: 7px;
+    margin: 15px 0;
   }
   
   .navbar-text button {
-    padding: 12px 24px;
-    font-size: 16px;
-    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0;
   }
 }
 
-/* Mobile Banner */
-@media screen and (max-width: 768px) {
+/* Banner Mobile Styling */
+@media screen and (max-width: 991px) {
   .banner {
-    padding: 150px 0 50px 0;
-  }
-  
-  .banner h1 {
-    font-size: 40px;
-  }
-  
-  .banner p {
-    font-size: 16px;
-    width: 100%;
+    padding: 100px 0 50px 0;
+    text-align: center;
   }
   
   .banner img {
-    margin-left: 0;
-    height: 15rem;
-    width: 15rem;
-    margin-top: 2rem;
+    margin: 30px auto;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .banner .tagline {
+    font-size: 16px;
+    padding: 5px 10px;
   }
   
   .banner button {
-    font-size: 16px;
-    margin-top: 30px;
+    margin: 30px auto;
+    justify-content: center;
   }
 }
 
-/* Mobile Skills Section */
-@media screen and (max-width: 768px) {
+/* Skills Section Mobile Styling */
+@media screen and (max-width: 991px) {
   .skill-bx {
-    padding: 40px 20px;
-    border-radius: 32px;
-  }
-  
-  .skill h2 {
-    font-size: 35px;
-  }
-  
-  .skill p {
-    font-size: 16px;
-    margin: 14px 0 45px 0;
+    border-radius: 30px;
+    padding: 30px 20px;
+    margin-top: -30px;
   }
   
   .skill-slider {
     width: 100%;
   }
+  
+  .skill-slider .item img {
+    width: 70%;
+  }
 }
 
-/* Mobile Projects Section */
-@media screen and (max-width: 768px) {
-  .project {
-    padding: 40px 0;
-  }
-  
-  .project h2 {
-    font-size: 35px;
-  }
-  
-  .project p {
-    font-size: 16px;
-    width: 100%;
-  }
-  
+/* Projects Section Mobile Styling */
+@media screen and (max-width: 991px) {
   .project .nav.nav-pills {
     width: 100%;
+    flex-direction: column;
   }
   
-  .project .nav.nav-pills .nav-link {
-    padding: 12px 0;
-    font-size: 14px;
+  .project .nav.nav-pills .nav-item {
+    width: 100%;
   }
   
-  .proj-txtx h4 {
-    font-size: 24px;
+  .nav-link#projects-tabs-tab-first,
+  .nav-link#projects-tabs-tab-second,
+  .nav-link#projects-tabs-tab-third {
+    border-radius: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .proj-imgbx {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .proj-img {
+    height: auto;
+    width: 100%;
   }
 }
 
-/* Mobile Contact Section */
-@media screen and (max-width: 768px) {
+/* Contact Section Mobile Styling */
+@media screen and (max-width: 991px) {
   .contact {
-    padding: 40px 0;
+    padding: 30px 0;
   }
   
-  .contact h2 {
-    font-size: 35px;
-    margin-bottom: 20px;
+  .contact form {
+    padding: 0 15px;
   }
   
-  .contact form input, .contact form textarea {
-    padding: 14px 20px;
-    font-size: 16px;
-  }
-  
-  .contact form button {
-    padding: 12px 32px;
-    font-size: 16px;
+  .contact form input, 
+  .contact form textarea {
+    padding: 12px 15px;
+    margin-bottom: 15px;
   }
 }
 
-/* Mobile Footer */
-@media screen and (max-width: 768px) {
+/* Footer Mobile Styling */
+@media screen and (max-width: 991px) {
   .newsletter-bx {
-    padding: 40px 20px;
+    padding: 30px 15px;
     margin-bottom: 40px;
-    border-radius: 32px;
+    text-align: center;
+  }
+  
+  .new-email-bx {
+    flex-direction: column;
+    gap: 15px;
   }
   
   .new-email-bx button {
-    padding: 15px 30px;
-    font-size: 14px;
+    width: 100%;
+    padding: 12px 30px;
   }
   
   .footer img {
     width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .footer p {
+    text-align: center;
   }
 }
 
-/* Additional Mobile Optimizations */
-@media screen and (max-width: 480px) {
+/* Extra Small Devices */
+@media screen and (max-width: 576px) {
   .banner h1 {
-    font-size: 32px;
+    font-size: 32px !important;
+  }
+  
+  .proj-txtx h4 {
+    font-size: 20px;
   }
   
   .skill-bx {
-    padding: 30px 15px;
+    padding: 20px 15px;
   }
   
-  .proj-imgbx {
-    margin-bottom: 16px;
+  .contact h2 {
+    font-size: 28px !important;
+  }
+}
+
+/* Landscape Mode Optimization */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .banner {
+    padding: 50px 0 30px 0;
   }
   
-  .social-icon a {
-    width: 35px;
-    height: 35px;
+  .banner img {
+    height: 150px;
+    width: 150px;
   }
   
-  .social-icon a::before {
-    width: 35px;
-    height: 35px;
+  nav.navbar {
+    padding: 8px 0;
   }
 }
