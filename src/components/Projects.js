@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import aria from "../assets/img/aria.png";
+import ariaai from "../assets/img/ariaai.webp";
+
 import cropcore from "../assets/img/Banner.jpg"
 import career from "../assets/img/careertrack.png"
 
@@ -28,7 +30,7 @@ export const Projects = () => {
     {
       title: "AI Mental Health Companion",
       description: "Adaptive Response Model",
-      imgUrl: aria,
+      imgUrl: ariaai,
       githubLink: "https://github.com/hariprasaadh/careertrack/blob/main/AI/TherapistBot/chatbot.py",
       deployLink: "https://ariahealthbot.streamlit.app/"
     },
