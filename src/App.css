@@ -32,11 +32,11 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
   background-image: url("./assets/img/banner-bg.png");  
-  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -486,8 +486,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  /* background: linear-gradient(90.21deg, #cf7aad -5.91%, #0c1220e5 111.58%);  */
-  padding: 60px 0 40px 0;
+  padding: 60px 0  20px 0;
 }
 .contact img {
   width: 80%;
@@ -557,13 +556,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Footer Css ************/
-.footer {
-  padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
