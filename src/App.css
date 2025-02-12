@@ -37,6 +37,8 @@ body {
   background-image: url("./assets/img/banner-bg.png");  
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -237,7 +239,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
