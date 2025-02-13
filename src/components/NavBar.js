@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import linkedin from '../assets/img/nav-icon1.svg';
 import github from '../assets/img/github.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import leetcode from '../assets/img/leetcode.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -50,7 +50,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/hariprasaadh-k-a5430a287"><img src={linkedin} alt="" /></a>
                 <a href="https://github.com/Hariprasaadh"><img src={github} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://leetcode.com/u/Hariprasaadh_K/"><img src={leetcode} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
