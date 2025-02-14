@@ -190,7 +190,7 @@ export const experiences = [
       role: "AI/ML Lead",
       company: "Open Source Programming Club",
       date: "Oct 2024 - Present",
-      desc: "As the AI/ML Lead at the Open Source Programming Club, I contributed to open-source projects by developing ML models and optimizing codebases using Python and TensorFlow. I collaborated on GitHub, improved model performance, mentored peers in ML workflows, and guided them in version control and best practices. Additionally, I led AI-driven projects, reviewed code, and ensured high-quality contributions to real-world applications.",
+      desc: "As the AI/ML Lead at the Open Source Programming Club, I contributed to open-source projects by building and deploying ML models using Python and TensorFlow. I collaborated on GitHub, improved model performance, mentored peers in ML workflows, and guided them in version control and best practices. Additionally, I led AI-driven projects, reviewed code, and ensured high-quality contributions to real-world applications.",
       skills: [
         "Scikit-learn",
         "TensorFlow",
@@ -207,7 +207,7 @@ export const experiences = [
       role: "Technical Team Member",
       company: "Artficial Intelligence Club",
       date: "Jan 2024 - Present",
-      desc: "As a core member of the Artificial Intelligence Club, I worked on Generative AI projects, developing and optimizing models using TensorFlow, LangChain, and Hugging Face Transformers. I explored applications like text generation, image synthesis, and AI agents while collaborating with peers to integrate advanced AI techniques. Additionally, I contributed to research discussions, mentored members in prompt engineering and model fine-tuning, and worked on deploying AI solutions for real-world applications.",
+      desc: "As a core member of the Artificial Intelligence Club, I worked on Generative AI projects, developing models using TensorFlow, LangChain, and Hugging Face Transformers. I explored applications like text generation, image synthesis, and AI agents while collaborating with peers to integrate advanced AI techniques. Additionally, I contributed to research discussions, mentored members in prompt engineering, and worked on deploying AI solutions for real-world applications.",
       skills: [
         "LangChain",
         "LangGraph",
